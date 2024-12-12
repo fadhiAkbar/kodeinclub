@@ -1,3 +1,12 @@
+import {
+  englishCamp,
+  kajianIslam,
+  kodein,
+  kodeinClub,
+  quranCamp,
+  tahfidzQuran,
+} from "../assets";
+
 const MainContent = () => {
   return (
     <>
@@ -7,7 +16,7 @@ const MainContent = () => {
           {/* English Camp */}
           <div className="card bg-white border border-gray-300 rounded-lg p-5 shadow-md mb-5">
             <h3 className="text-lg font-bold mb-2">English Camp</h3>
-            <div className="image-placeholder w-full h-36 bg-gray-200 rounded mb-4"></div>
+            <img className="w-full rounded mb-4" src={englishCamp} alt="" />
             <p className="text-sm text-gray-600 leading-relaxed">
               Contrary to popular belief, Lorem Ipsum is not simply random text.
               It has roots in a piece of classical Latin literature from 45 BC,
@@ -18,7 +27,7 @@ const MainContent = () => {
           {/* Kodein Club */}
           <div className="card bg-white border border-gray-300 rounded-lg p-5 shadow-md mb-5">
             <h3 className="text-lg font-bold mb-2">Kodein Club</h3>
-            <div className="image-placeholder w-full h-36 bg-gray-200 rounded mb-4"></div>
+            <img className="w-full rounded mb-4" src={kodeinClub} alt="" />
             <p className="text-sm text-gray-600 leading-relaxed">
               Contrary to popular belief, Lorem Ipsum is not simply random text.
               It has roots in a piece of classical Latin literature from 45 BC,
@@ -29,7 +38,7 @@ const MainContent = () => {
           {/* Quran Camp */}
           <div className="card bg-white border border-gray-300 rounded-lg p-5 shadow-md mb-5">
             <h3 className="text-lg font-bold mb-2">Quran Camp</h3>
-            <div className="image-placeholder w-full h-36 bg-gray-200 rounded mb-4"></div>
+            <img className="rounded w-full mb-4" src={quranCamp} alt="" />
             <p className="text-sm text-gray-600 leading-relaxed">
               Contrary to popular belief, Lorem Ipsum is not simply random text.
               It has roots in a piece of classical Latin literature from 45 BC.
@@ -38,7 +47,7 @@ const MainContent = () => {
             {/* Subsection */}
             <div className="sub-section border-t border-gray-300 pt-3 mt-3">
               <h4 className="text-md font-semibold mb-2">Tahfidz Quran</h4>
-              <div className="image-placeholder w-full h-36 bg-gray-200 rounded mb-4"></div>
+              <img className="rounded mb-4 w-full" src={tahfidzQuran} alt="" />
               <p className="text-sm text-gray-600 leading-relaxed">
                 Contrary to popular belief, Lorem Ipsum is not simply random
                 text. It has roots in a piece of classical.
@@ -48,6 +57,7 @@ const MainContent = () => {
             <div className="sub-section border-t border-gray-300 pt-3 mt-3">
               <h4 className="text-md font-semibold mb-2">Kajian Islam</h4>
               <div className="image-placeholder w-full h-36 bg-gray-200 rounded mb-4"></div>
+              <img className="rounded mb-4 w-full" src={kajianIslam} alt="" />
               <p className="text-sm text-gray-600 leading-relaxed">
                 Contrary to popular belief, Lorem Ipsum is not simply random
                 text. It has roots in a piece of classical.
@@ -59,7 +69,7 @@ const MainContent = () => {
         {/* Side Bar */}
         <div className="sidebar flex-[1]">
           <div className="sidebar-card bg-white border border-gray-300 rounded-lg p-5 shadow-md">
-            <div className="image-placeholder w-full h-36 bg-gray-200 rounded mb-4"></div>
+            <img className="w-full rounded mb-4" src={kodein} alt="" />
             <h3 className="text-lg font-bold text-center mb-3">
               Sekolah Developer Indonesia
             </h3>
