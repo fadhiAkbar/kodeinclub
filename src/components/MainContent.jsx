@@ -56,7 +56,6 @@ const MainContent = () => {
 
             <div className="sub-section border-t border-gray-300 pt-3 mt-3">
               <h4 className="text-md font-semibold mb-2">Kajian Islam</h4>
-              <div className="image-placeholder w-full h-36 bg-gray-200 rounded mb-4"></div>
               <img className="rounded mb-4 w-full" src={kajianIslam} alt="" />
               <p className="text-sm text-gray-600 leading-relaxed">
                 Contrary to popular belief, Lorem Ipsum is not simply random
